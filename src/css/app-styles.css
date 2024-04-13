@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #8fd2db;
+    border: 2px solid #000000;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    /* Adicionando margem */
+}
+
+.buttons {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.advertisement {
+    margin-top: 50px;
+}
+
+.saiba-mais {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+footer {
+
+    bottom: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 5px 0;
+    text-align: center;
+    border: 2px solid #000000;
+    margin-top: 20px;
+    /* Definindo uma margem superior */
+}
+
+footer a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}

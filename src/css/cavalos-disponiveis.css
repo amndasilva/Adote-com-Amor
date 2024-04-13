@@ -1,0 +1,33 @@
+ .gallery {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     /* 2 colunas */
+     grid-gap: 10px;
+     /* Espaçamento entre os cards */
+     margin-top: 10px;
+     width: 700px;
+     padding: 5px 0;
+     margin-left: auto;
+     /* Margem à esquerda automática */
+     margin-right: auto;
+     /* Margem à direita automática */
+ }
+
+
+ .card {
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     overflow: hidden;
+     cursor: pointer;
+ }
+
+ .card img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+ }
+
+ .description {
+     padding: 10px;
+     background-color: #f1f1f1;
+ }

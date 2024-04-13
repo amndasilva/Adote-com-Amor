@@ -1,0 +1,94 @@
+#listaRegistros {
+    display: none;
+}
+
+#cadastroSolicitação {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body[page=lista] #listaRegistros {
+    display: block;
+}
+
+body[page=cadastro] #cadastroSolicitação {
+    display: flex;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    color: #333;
+    background-color: #FFDE59;
+    padding: 20px 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    font-size: 14px;
+    padding: 10px 15px;
+    border: solid 1px #ccc;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    margin: 3px;
+    padding: 10px 15px;
+}
+
+button.cinza {
+    background-color: #ccc;
+    color: #666;
+}
+
+button.vermelho {
+    background-color: #000000;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    border: solid 5px #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 10%;
+
+}
+
+select {
+    border: solid 5px #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: medium;
+    width: 40%;
+    /*width: 200px;*/
+
+}
+
+form {
+    width: 20%;
+}
+
+.label>div {
+    display: flex;
+}
+
+.label>div>input {
+    flex: 1;
+}

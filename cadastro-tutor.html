@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script type='text/javascript' src="./src/js/cadastro-tutor.js"></script>
+<link rel="stylesheet" href="./src/css/cadastro-tutor.css">
+
+</head>
+
+<body page='lista'>
+
+    <div>
+        <h2>Cadastro</h2>
+        <button onclick="visualizar('cadastro', true)">Novo Cadastro</button>
+        <img src="./src/img/Logo.png" alt="logo" style="float:right;width:160px">
+    </div>
+
+
+    <div id='listaRegistros'>
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Data de Nascimento</th>
+                    <th>Renda Familiar ($)</th>
+                    <th>Endereço</th>
+                    <th>E-mail</th>
+                    <th>Senha</th>
+
+                </tr>
+            </thead>
+            <tbody id='listaRegistrosBody'></tbody>
+        </table>
+
+
+
+    </div>
+    <form id='cadastroRegistro' action="/insert" method="POST">
+
+
+        <div class='label'>
+            <div>ID</div>
+            <div>
+                <input type='number' readonly id='id' />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>Nome</div>
+            <div>
+                <input type='text' name='nome_produto' id='nome' required />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>CPF</div>
+            <div>
+                <input type='number' name='cpf' id='cpf' required />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>Data de Nascimento</div>
+            <div>
+                <input type='date' name='data' id='data' required />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>Renda Familiar</div>
+            <div>
+                <input type='number' name='renda' id='renda' required />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>Endereço</div>
+            <div>
+                <input type='text' name='endereco' id='endereco' />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>E-mail</div>
+            <div>
+                <input type='email' name='email' id='email' />
+            </div>
+        </div>
+
+        <div class='label'>
+            <div>Senha</div>
+            <div>
+                <input type='password' name='senha' id='senha' />
+            </div>
+        </div>
+
+        <div>
+            <button type="submit" onclick="submeter(event)">Salvar</button>
+            <button onclick="visualizar('lista')">Cancelar</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

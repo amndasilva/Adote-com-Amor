@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavalos</title>
+    <link rel="stylesheet" href="./src/css/app-styles.css">
+    <link rel="stylesheet" href="./src/css/cavalos-disponiveis.css">
+</head>
+
+<body>
+    <header>
+        <button onclick="window.history.back()" class="voltar">Voltar</button>
+    </header>
+    <div class="container">
+        <div class="logo">
+            <div class="d-flex justify-content-center align-items-center"
+                style="padding: 6px;border: 25px none var(--bs-tertiary-bg);border-bottom: 2px solid var(--bs-tertiary-bg);">
+                <a href="index.html"><img class="d-flex justify-content-center align-items-center" src="./src/img/Logo.png" width="110"
+                    height="105"></a>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="window.location.href='cachorros-disponiveis.html'">Cachorro</button>
+            <button onclick="window.location.href='cavalos-disponiveis.html'">Cavalo</button>
+            <button onclick="window.location.href='gatos-disponiveis.html'">Gato</button>
+        </div>
+        <div class="gallery">
+            <div class="card" onclick="window.location.href='cavalo1.html'">
+                <img src="./src/img/cavalo1.jpg" alt="Cavalo">
+                <div class="description">Cavalo 1</div>
+            </div>
+            <div class="card" onclick="window.location.href='cavalo2.html'">
+                <img src="./src/img/cavalo2.jpg" alt="Cavalo">
+                <div class="description">Cavalo 2</div>
+            </div>
+            <div class="card" onclick="window.location.href='cavalo3.html'">
+                <img src="./src/img/cavalo4.jpeg" alt="Cavalo">
+                <div class="description">Cavalo 3</div>
+
+            </div>
+            <div class="card" onclick="window.location.href='cavalo4.html'">
+                <img src="./src/img/cavalo5.jpg" alt="Cavalo">
+                <div class="description">Cavalo 4</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html">Início</a>
+        <a href="perfil.html">Meu Perfil</a>
+        <a href="interesse-adocao.html">Interesse a Adoção</a>
+        <a href="login.html">Sair</a>
+    </footer>
+</body>
+
+</html>
