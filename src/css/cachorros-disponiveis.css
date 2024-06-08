@@ -1,14 +1,16 @@
 .gallery {
     display: grid;
-
-
     grid-template-columns: repeat(2, 1fr);
     /* 2 colunas */
     grid-gap: 10px;
     /* Espaçamento entre os cards */
     margin-top: 10px;
-
+    max-width: 800px;
+    /* Largura máxima */
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .card {
     border: 1px solid #ccc;
@@ -18,7 +20,7 @@
 }
 
 .card img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -26,4 +28,116 @@
 .description {
     padding: 10px;
     background-color: #f1f1f1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3b2b2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+.voltar {
+    text-align: left;
+    margin-top: 10px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #fad354;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar .cadastrar {
+    text-align: left;
+    margin-top: 10px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #fad354;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 20px 5px;
+    padding: 10px 20px;
+    background-color: #ffc400;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+
+
+.animal-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-buttons button {
+    margin-right: 10px;
+}
+
+.buttons button {
+    margin-right: 2%;
+    margin-bottom: 10px;
+    padding: 10px 1.5em;
+    background-color: #ffc400;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
 }
