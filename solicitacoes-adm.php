@@ -58,8 +58,8 @@ include ("conexao.php");
                 <tr>
                     <td>2</td>
                     <td>213.456.987-00</td>
-                    <td>Ave</td>
-                    <td> 1 - 3 ano</td>
+                    <td>Cavalo </td>
+                    <td> 1 - 10 anos</td>
                     <td>Pequeno</td>
                     <td>Laranja</td>
                     <td>Enviada</td>
@@ -112,8 +112,8 @@ include ("conexao.php");
                 <select id="tipo">
                     <option value="null"></option>
                     <option value="Cachorro">Cachorro</option>
+                    <option value="Cavalo">Cavalo</option>
                     <option value="Gato">Gato</option>
-                    <option value="Passarinho">Passarinho</option>
                 </select>
             </div>
         </div>
