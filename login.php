@@ -26,8 +26,8 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
         session_start();
       }
 
-      $_SESSION['id'] = $usuario['id'];
-      $_SESSION['nome'] = $usuario['nome'];
+      $_SESSION['id'] = $usuarios['id'];
+      $_SESSION['nome'] = $usuarios['nome'];
 
       header("Location: index.php");
     } else {

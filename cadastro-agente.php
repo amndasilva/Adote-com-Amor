@@ -55,7 +55,7 @@ if (isset($_POST['id'])) {
     <div>
         <h2>Cadastro de Agente</h2>
         <button onclick="visualizar('cadastro', true)">Novo Cadastro</button>
-        <img src="./src/img/Logo.png" alt="logo" style="float:right;width:160px">
+        <a href="index.php"><img src="./src/img/Logo.png" alt="logo" style="float:right;width:160px">
     </div>
 
 

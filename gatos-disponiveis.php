@@ -42,20 +42,20 @@ include ("conexao.php");
         </div>
         <div class="gallery">
             <div class="card" onclick="window.location.href='gato1.php'">
-                <img src="./src/img/gato.jpg" alt="Simba">
+                <img src="./src/img/gato1.jpeg" alt="Simba">
                 <div class="description">Simba</div>
             </div>
             <div class="card" onclick="window.location.href='gato2.php'">
-                <img src="./src/img/gato7.jpg" alt="Luna">
+                <img src="./src/img/gato2.jpeg" alt="Luna">
                 <div class="description">Luna</div>
             </div>
             <div class="card" onclick="window.location.href='gato3.php'">
-                <img src="./src/img/gatosiames.webp" alt="Oliver">
+                <img src="./src/img/gato3.jpeg" alt="Oliver">
                 <div class="description">Oliver</div>
 
             </div>
             <div class="card" onclick="window.location.href='gato4.php'">
-                <img src="./src/img/gatosiames.webp" alt="Mia">
+                <img src="./src/img/gato4.jpeg" alt="Mia">
                 <div class="description">Mia</div>
             </div>
         </div>

@@ -40,7 +40,7 @@ include ("conexao.php");
             </div>
         </div>
         <div class="animal-info">
-            <img src="./src/img/gato3.webp" alt="Animal">
+            <img src="./src/img/gato3.jpeg" alt="Animal">
             <div class="animal-details">
                 <h2>Oliver</h2>
                 <p><strong>Nome:</strong> Oliver</p>

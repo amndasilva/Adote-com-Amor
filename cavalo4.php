@@ -38,7 +38,7 @@ include ("conexao.php");
             </div>
         </div>
         <div class="animal-info">
-            <img src="./src/img/cavalo4.jpeg" alt="Animal">
+            <img src="./src/img/cavalo3.jpeg" alt="Animal">
             <div class="animal-details">
                 <h2>Informações do Animal</h2>
                 <p><strong>Nome:</strong> Trovão</p>

@@ -56,7 +56,7 @@ include ("conexao.php");
 
             </div>
             <div class="card" onclick="window.location.href='cavalo4.php'">
-                <img src="./src/img/cavalo-pampa.jpg" alt="Cavalo">
+                <img src="./src/img/cavalo3.jpeg" alt="Cavalo">
                 <div class="description">Trovão</div>
             </div>
         </div>
